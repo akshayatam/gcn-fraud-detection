@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+
+# Artifacts
+artifacts/
+*.pt
+*.log
+
+# Data (dataset is large)
+data/
+
+# OS
+.DS_Store

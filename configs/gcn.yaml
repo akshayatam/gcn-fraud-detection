@@ -1,0 +1,24 @@
+name: elliptic_gcn
+
+dataset:
+  features_path: "data/elliptic_txs_features.csv"
+  edges_path: "data/elliptic_txs_edgelist.csv"
+  classes: "data/elliptic_txs_classes.csv"
+
+model:
+  input_dim: null
+  hidden_dim: 128
+  output_dim: 1
+
+train:
+  dataset: elliptic
+  model: gcn
+  num_epochs: 100
+  device: cuda
+  lr: 0.01
+  weight_decay: 1e-5
+  print_freq: 10
+  save_dir: artifacts/weights
+  run_dir: artifacts/runs
+  viz_dir: artifacts/visualizations
+  save_freq: 100
