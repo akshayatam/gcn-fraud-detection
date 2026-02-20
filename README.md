@@ -1,5 +1,10 @@
 # 🕸️ GCN Fraud Detection on the Elliptic Bitcoin Dataset
 
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.x-ee4c2c.svg)](https://pytorch.org/)
+[![PyTorch Geometric](https://img.shields.io/badge/PyG-Graph%20Learning-green.svg)](https://pytorch-geometric.readthedocs.io/)
+[![License](https://img.shields.io/badge/License-Educational-lightgrey.svg)](#-license)
+
 Graph-based fraud detection using a **Graph Convolutional Network (GCN)** on the Elliptic Bitcoin transaction dataset.
 
 This project implements a production-style, modular, and reproducible graph machine learning pipeline for detecting illicit cryptocurrency transactions.
